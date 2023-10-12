@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+html{
+    font-family: Gilroy-Bold sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.header{
+    padding: 45px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.heder_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 533px;
+}
+.menu{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+}
+.intro{
+    display: flex;
+    /*gap: 128px;*/
+    justify-content: space-between;
+    width: 1146px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.main_block_one{
+    color: #000;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main_block_two{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 466px;
+
+}

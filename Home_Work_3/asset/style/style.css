@@ -10,7 +10,16 @@ body{
     padding: 45px;
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1170px;
+    width: 1170px;
+    height: 40px;
+    top: -367px;
+    left: -566px;
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 .heder_menu{
@@ -33,7 +42,7 @@ body{
     display: flex;
     /*gap: 128px;*/
     justify-content: space-between;
-    width: 1146px;
+    width: 1170px;
     margin-right: auto;
     margin-left: auto;
 
@@ -56,4 +65,38 @@ body{
     line-height: normal;
     width: 466px;
 
+}
+.button_style{
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.non_button{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo{
+    width: 1200px;
+    margin: 178px;
+    padding: 97px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
 }
